@@ -64,6 +64,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.ril_class=Exynos5260RIL
 
+# GPU
+PRODUCT_PACKAGES += \
+    libGLES_android
+
 # Set default USB interface
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=mtp
