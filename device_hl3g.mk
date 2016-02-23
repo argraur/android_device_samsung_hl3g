@@ -66,7 +66,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # GPU
 PRODUCT_PACKAGES += \
-    libGLES_android
+    gralloc.exynos5 \
+    libion \
+    hwcomposer.exynos5 \
+    memtrack.exynos5
 
 # Set default USB interface
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \

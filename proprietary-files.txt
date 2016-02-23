@@ -47,12 +47,9 @@ app/mcRegistry/fffffffff0000000000000000000001e.tlbin
 lib/hw/audio.primary.universal5260.so
 lib/hw/camera.universal5260.so
 lib/hw/gps.default.so
-lib/hw/gralloc.exynos5.so
 lib/hw/nfc_nci.universal5260.so
 lib/hw/sensors.universal5260.so
-lib/hw/hwcomposer.exynos5.so
 lib/hw/keystore.exynos5.so
-lib/hw/memtrack.exynos5.so
 lib/hw/power.exynos5.so
 
 # Battery
