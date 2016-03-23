@@ -134,6 +134,6 @@ BOARD_SEPOLICY_DIRS += \
    device/samsung/hl3g/sepolicy
 
 BOARD_SEPOLICY_UNION += \
-   service_contexts
+   service_contexts \
    init.te
 
