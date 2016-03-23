@@ -118,6 +118,7 @@ lib/libfactoryutil.so
 lib/libexynosv4l2.so
 lib/libexynosutils.so
 lib/libexynoscamera.so
+lib/libcamera_client.so
 lib/libdrmdecrypt.so
 lib/libdisplaymodule.so
 lib/libdisplay.so
@@ -138,3 +139,6 @@ lib/libion.so
 lib/libexynosgscaler.so
 lib/libvdis.so
 lib/libymc_config.so
+lib/lib_SamsungRec_V04004.so
+lib/libsoundtriggerservice.so
+lib/libak09911c.so
