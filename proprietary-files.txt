@@ -45,6 +45,7 @@ app/mcRegistry/fffffffff0000000000000000000001e.tlbin
 
 # Hw
 lib/hw/audio.primary.universal5260.so
+lib/hw/audio_policy.universal5260.so
 lib/hw/camera.universal5260.so
 lib/hw/gps.default.so
 lib/hw/nfc_nci.universal5260.so
@@ -142,3 +143,5 @@ lib/libymc_config.so
 lib/lib_SamsungRec_V04004.so
 lib/libsoundtriggerservice.so
 lib/libak09911c.so
+lib/lib_Samsung_AudioZoom_v102.so
+lib/libtinyxml.so 
