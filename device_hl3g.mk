@@ -64,6 +64,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/sbin/cbd:root/sbin/cbd
 
+# SWAP
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/sbin/sswap:root/sbin/sswap \
+
 # RIL
 PRODUCT_PACKAGES += \
     libsecril-client
@@ -137,7 +141,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.kernel.android.checkjni=0 \
     ro.opengles.version=196608 \
     ro.zygote.disable_gl_preload=true
-    ro.kernel.android.checkjni=0 \
     dalvik.vm.checkjni=false \
     dalvik.vm.heapstartsize=8m \
     dalvik.vm.heapgrowthlimit=128m \
