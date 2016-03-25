@@ -13,7 +13,6 @@ TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_CPU_VARIANT := cortex-a7
 TARGET_CPU_SMP := true
 ARCH_ARM_HAVE_TLS_REGISTER := true
-TARGET_PREFER_32_BIT := true
 
 # Board
 TARGET_BOOTLOADER_BOARD_NAME := universal5260
@@ -128,12 +127,4 @@ TARGET_BOOTANIMATION_TEXTURE_CACHE := true
 # Charger
 BOARD_CHARGER_ENABLE_SUSPEND := true
 BOARD_CHARGING_MODE_BOOTING_LPM := /sys/class/power_supply/battery/batt_lp_charging
-
-#SELinux 
-BOARD_SEPOLICY_DIRS += \
-   device/samsung/hl3g/sepolicy
-
-BOARD_SEPOLICY_UNION += \
-   service_contexts \
-   init.te
 
