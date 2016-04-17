@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/device_hl3g.mk
+    $(LOCAL_DIR)/full_hl3g.mk
