@@ -1,3 +1,7 @@
+# Inherit device configuration
+$(call inherit-product, device/samsung/hl3g/full_hl3g.mk)
+$(call inherit-product, device/samsung/smdk5260-common/device-common.mk)
+
 ## Specify phone tech before including full_phone
 $(call inherit-product, vendor/cm/config/telephony.mk)
 
@@ -7,8 +11,6 @@ PRODUCT_RELEASE_NAME := hl3g
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-# Inherit device configuration
-$(call inherit-product, device/samsung/hl3g/full_hl3g.mk)
 # Nfc
 $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 
