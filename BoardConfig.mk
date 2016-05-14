@@ -9,6 +9,7 @@ TARGET_KERNEL_CONFIG := cyanogenmod-exynos5260-hl3gxx_00_defconfig
 
 # RIL
 #BOARD_RIL_CLASS := ../../../device/samsung/hl3g/ril
+BOARD_MODEM_TYPE := xmm6262
 
 # Inherit common board flags
 -include device/samsung/smdk5260-common/BoardConfigCommon.mk
