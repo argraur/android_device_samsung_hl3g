@@ -35,7 +35,7 @@ TARGET_SPECIFIC_HEADER_PATH := device/samsung/hl3g/include
 BOARD_KERNEL_CMDLINE := 
 BOARD_KERNEL_BASE := 0x10000000
 BOARD_KERNEL_PAGESIZE := 2048
-TARGET_KERNEL_SOURCE := kernel/samsung/hl3g
+TARGET_KERNEL_SOURCE := kernel/samsung/smdk5260
 TARGET_KERNEL_CONFIG := cyanogenmod-exynos5260-hl3gxx_00_defconfig
 
 # PowerHAL
