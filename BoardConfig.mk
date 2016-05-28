@@ -11,7 +11,6 @@ TARGET_KERNEL_CONFIG := cyanogenmod-exynos5260-hl3gxx_00_defconfig
 TARGET_RECOVERY_FSTAB := device/samsung/hl3g/rootdir/fstab.universal5260
 
 # RIL
-#BOARD_RIL_CLASS := ../../../device/samsung/hl3g/ril
 BOARD_MODEM_TYPE := xmm6262
 
 # Bluetooth
