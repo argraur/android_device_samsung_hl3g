@@ -1,2 +1,2 @@
-add_lunch_combo cm_hl3g-eng
-add_lunch_combo cm_hl3g-userdebug
+add_lunch_combo bliss_hl3g-eng
+add_lunch_combo bliss_hl3g-userdebug
