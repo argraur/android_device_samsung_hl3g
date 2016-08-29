@@ -41,7 +41,7 @@
 #
 ```
 
-## How to build Bliss
+## How to build Carbon ROM
 <img src="https://img.xda-cdn.com/IzXw9U92Wdi5Pl7AF3dTe1e0aAY=/http%3A%2F%2Fi.imgur.com%2FXzinYIT.png">
 
 Getting Started 
@@ -50,7 +50,7 @@ Getting Started
 To get started with Android/CarbonROM, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the BlissPop trees, use this command:
+To initialize your local repository using the CarbonROM trees, use this command:
 
 
     repo init -u https://github.com/CarbonROM/android.git -b lp5.1.1
