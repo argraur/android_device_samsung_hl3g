@@ -42,7 +42,7 @@
 ```
 
 ## How to build Bliss
-<img src="https://img.xda-cdn.com/y0-jh92D771X32M91Mt_8WdDVoI=/https%3A%2F%2Fimg.xda-cdn.com%2FIzXw9U92Wdi5Pl7AF3dTe1e0aAY%3D%2Fhttp%253A%252F%252Fi.imgur.com%252FXzinYIT.png">
+<img src="https://img.xda-cdn.com/IzXw9U92Wdi5Pl7AF3dTe1e0aAY=/http%3A%2F%2Fi.imgur.com%2FXzinYIT.png">
 
 Getting Started 
 ---------------
@@ -75,9 +75,9 @@ To build for your device.
 
 . build/envsetup.sh
 
-lunch `bliss_hllte-userdebug or carbon_hl3g-userdebug`
+lunch `carbon_hllte-userdebug or carbon_hl3g-userdebug`
 
-brunch `bliss_hllte-userdebug or carbon_hl3g-userdebug`
+brunch `carbon_hllte-userdebug or carbon_hl3g-userdebug`
 
 For more information on this Github Organization and how it is structured,
 please [read the wiki article](http://wiki.cyanogenmod.org/w/Github_Organization)
